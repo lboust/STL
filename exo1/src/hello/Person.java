@@ -1,9 +1,13 @@
 package hello;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 public class Person {
 	//instance fields
+	@Autowired
 	private String name;
-	private int age;
+	@Autowired
+	private Integer age;
 	
 	//methods
 
