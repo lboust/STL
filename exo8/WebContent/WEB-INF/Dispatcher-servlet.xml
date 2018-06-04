@@ -19,7 +19,9 @@
         <property name="prefix" value="/WEB-INF/JSP/" />
         <property name="suffix" value=".jsp" />
     </bean> 
-    
+    <mvc:resources mapping="/resources/**" location="/resources/theme/" />
     <mvc:annotation-driven />
      
+
+
 </beans>
